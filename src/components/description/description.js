@@ -1,6 +1,6 @@
 import React from 'react';
 import { Topic } from './topic/topic';
-import { descriptionData } from '../../description-data';
+import { topicsData } from '../../topics-data';
 import "./description.css";
 
 // lado direito da pagina
@@ -13,13 +13,14 @@ export function Description() {
   const createTopics = () => {
     const topics = [];
 
-    for (let index = 0; index < descriptionData.length; index += 1) {
-      const currentTopic = descriptionData[index];
+    for (let index = 0; index < topicsData.length; index += 1) {
+      const currentTopic = topicsData[index];
       topics.push(
         <Topic
           key={ index }
           title={ currentTopic.title }
-          content= { currentTopic.content }
+          paragraphs= { currentTopic.paragraphs }
+          subtopics={ currentTopic.subtopics }
         />
       );
     }

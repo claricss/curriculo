@@ -1,14 +1,28 @@
-export const topics = [
+export const topicsData = [
   {
-    title: 'HABILIDADES',
-    paragraphs: [
-      '',
+    title: 'CERTIFICAÇÕES',
+    subtopics: [
+      {
+        title: 'JA Startup John Deere - CERTIFIED',
+        info: ''
+      },
+      {
+        title: 'Ensino Médio',
+        info: 'Colégio Pódion | Conclusão: Dez. de 2020',
+      },
     ],
   },
   {
     title: 'FORMAÇÃO ACADÊMICA',
-    paragraphs: [
-      '',
+    subtopics: [
+      {
+        title: 'Universidade de Brasília',
+        info: 'Bacharelado em Engenharia Aeroespacial | Jan. de 2022 - Dez. de 2026'
+      },
+      {
+        title: 'Ensino Médio',
+        info: 'Colégio Pódion | Conclusão: Dez. de 2020',
+      },
     ],
   },
   {
