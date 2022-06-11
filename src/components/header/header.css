@@ -1,0 +1,64 @@
+#curriculum-header {
+  color: var(--dark-font);
+  background-color: var(--header-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+  min-width: 35%;
+  text-align: center;
+  padding: 0 16px;
+}
+
+#profile-image {
+  /* para deixar a foto redonda */
+  border-radius: 50%;
+  height: 128px;
+  margin: 0 auto;
+  width: 128px;
+}
+
+#header-title {
+  font-size: 22px;
+  margin: 16px 0;
+}
+
+#header-description {
+  font-size: 18px;
+}
+
+#header-contact {
+  opacity: 0.8;
+  margin: 8px 0;
+}
+
+/* Estilização aplicada ao primeiro e segundo filho de "div" */
+/* div:first-child, div:nth-child(2) {
+  display: inline;
+} */
+
+#header-links {
+  display: flex;
+  font-size: 28px;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-top: 16px;
+  width: 60%;
+}
+/*
+  Estilização aplicada a tag "a" que está dentro do "header-link" que é um ID.
+*/
+#header-links a {
+  color: var(--dark-font);
+}
+
+#header-links a:hover {
+  text-decoration: none;
+  color: teal;
+}
+
+#header-footer {
+  align-self: center;
+  bottom: 0;
+  position: absolute;
+}

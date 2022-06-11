@@ -1,0 +1,8 @@
+#curriculum-description {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  min-width: 50%;
+  max-width: 100%;
+  padding: 0 32px;
+}

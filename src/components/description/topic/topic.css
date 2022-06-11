@@ -1,0 +1,16 @@
+.topic-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 48px 0;
+}
+
+.topic-card h4 {
+  max-width: 20%;
+}
+
+.topic-card p {
+  max-width: 80%;
+  text-align: justify;
+}

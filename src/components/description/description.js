@@ -1,6 +1,7 @@
 import React from 'react';
 import { Topic } from './topic/topic';
 import { descriptionData } from '../../description-data';
+import "./description.css";
 
 // lado direito da pagina
 export function Description() {
@@ -27,7 +28,7 @@ export function Description() {
   };
 
   return (
-    <section>
+    <section id="curriculum-description">
       { createTopics() }
     </section>
   );

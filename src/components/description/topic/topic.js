@@ -1,4 +1,6 @@
 import React from 'react';
+import "./topic.css";
+
 
 // const props = {
 //   title: 'string',
@@ -8,7 +10,7 @@ import React from 'react';
 // parâmetro = props
 export function Topic({ title, content }) {
   return (
-    <div>
+    <div className="topic-card">
       {/*
         Para receber o valor de variáveis JS no HTML do React
         precisamos usar "{}" em volta da variável.

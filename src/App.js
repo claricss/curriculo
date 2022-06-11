@@ -1,14 +1,12 @@
-import './App.css';
-import { Apresentation } from './components/apresentation/apresentation';
-import { Description} from './components/description/description';
+import './main.css';
+import { Header } from './components/header/header';
+import { Description } from './components/description/description';
 
-function App() {
+export function App() {
   return (
     <div id="page">
-      <Apresentation />
+      <Header />
       <Description />
     </div>
   );
 }
-
-export default App;
