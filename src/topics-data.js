@@ -3,8 +3,12 @@ export const topicsData = [
     title: 'CERTIFICAÇÕES',
     subtopics: [
       {
-        title: 'JA Startup John Deere - CERTIFIED',
-        info: ''
+        title: 'JA Startup John Deere',
+        info: 'JA Startup | Ago. de 2021'
+      },
+      {
+        title: 'Honeywell Leadership Challenge Academy',
+        info: 'Honeywell em parceria com US Space & Rocket Center | Mar. de 2020'
       },
     ],
   },
@@ -23,8 +27,11 @@ export const topicsData = [
   },
   {
     title: 'EXPERIÊNCIA PROFISSIONAL',
-    paragraphs: [
-      '',
+    subtopics: [
+      {
+        title: 'Taperá Aerodesign IFSP Salto',
+        info: 'Equipe de competição de aeromodelismo do Instituto Federal de Ciência, Educação e Tecnologia de São Paulo | Mai. de 2021 - Jan. de 2022'
+      },
     ],
   },
   {
