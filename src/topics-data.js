@@ -6,10 +6,6 @@ export const topicsData = [
         title: 'JA Startup John Deere - CERTIFIED',
         info: ''
       },
-      {
-        title: 'Ensino Médio',
-        info: 'Colégio Pódion | Conclusão: Dez. de 2020',
-      },
     ],
   },
   {
